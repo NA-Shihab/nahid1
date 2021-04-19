@@ -1,0 +1,189 @@
+@import'utilities.css';
+
+:root{
+	--primary:#3DCFD3;
+	--dark:#161616;
+	--pure:#FFFFFF;
+	--ternary:#898989;
+	--light:#F2F2F2;
+}
+body{
+	font-family: 'poppins',sans-serif;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing:antialiased;
+}
+
+header{
+	background-color: transparent;
+	height:80px;
+}
+.container{
+	max-width: 1152px;
+	padding: 0 1px;
+	margin: 0 auto;
+}
+header nav .left a{
+	color:white;
+	text-decoration: none;
+	margin-right: 2rem;
+	text-transform: uppercase;
+	transition: .3s ease;
+}
+header nav .left a:hover{
+color: var(--primary);
+}
+header nav {
+	padding: 2rem 0;
+}
+header nav .branding{
+	margin-right: 3rem;
+}
+.hero{
+	padding:3rem 0;
+}
+.hero .left img{
+width: 500px;
+}
+.hero .right{
+	color: white;
+}
+.hero .right h6{
+	font-size: 1.6rem;
+	color: var(--primary);
+	margin-bottom:0.5rem; 
+}
+.hero .right h1{
+	font-size: 4rem;
+	font-weight: 100;
+	line-height: 1.2;
+	margin-bottom: 2rem;
+}
+.hero .right h1 span{
+	color: var(--primary);
+}
+.hero .right p{
+	line-height:1.9;
+	margin-bottom: 2rem;
+}
+.hero .right {
+	margin-top: -7;
+}
+section.about img{
+	height: 400px;
+	width: 350px;
+	border-radius: 50%;
+}
+
+section{
+	background-color:grey;
+	padding: 11rem 0;
+	height: 800px;
+
+}
+
+section.about h1{
+	margin-bottom: 1rem;
+	font-size: 2.6rem;
+	font-weight: 400;
+}
+section.about h1 span{
+	color:var(--primary);
+}
+section.about h3{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	font-weight: 400;
+
+}
+section.about p{
+	font-family: 'Zen Dots' sans-serif;
+	font-style: bold;
+	color: black;
+	line-height: 1.6;
+}
+section.about.social{
+display: flex;
+}
+section.about.social{
+	background: var(--dark);
+}
+#particles-js{
+	background-image: url(./img/lo.jpg);
+	background-size: cover;
+	height: 900px;
+
+}
+
+
+.section-heading{
+	color: black;
+	text-align: center;
+	margin-bottom: 1rem;
+	line-height: 0.5;
+}
+ 
+ .section-heading span{
+ 	color: var(--primary);
+ }
+
+.section-heading + p{
+	color:var(--dark);
+	font-family:  'Zen Dots' sans-serif;
+margin-bottom: 5rem;
+text-align: center;
+}
+section.skills{
+	background: var(--light);
+}
+section.skills .card-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 2rem;
+	grid-row-gap: 4rem; 
+}
+
+section.skills .card-wrapper .card{
+	background: white;
+	padding: 3rem 2rem;
+	position: relative;
+	padding-top: 3rem;
+	text-align: center;
+	transition: all .4s ease;
+}
+
+section.skills .card-wrapper .card img{
+	position: absolute;
+	top: -1.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+section.skills .card-wrapper .card h2{
+	font-weight: 400;
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+}
+
+section.skills .card-wrapper .card p{
+	font-family: 'Zen Dots' sans-serif;
+	color: var(--dark);
+	line-height: 1.6;
+}
+
+section.skills .card-wrapper .card:hover{
+	background: var(--primary);
+}
+
+section.skills .card-wrapper .card:hover h2,section.skills .card-wrapper .card:hover p{
+	color: black;
+
+}
+
+section.achivements{
+background: lightgrey;
+}
