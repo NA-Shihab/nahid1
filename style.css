@@ -1,4 +1,10 @@
 @import'utilities.css';
+@media(max-width: 768px){
+	body{
+
+	}
+	
+}
 
 :root{
 	--primary:#3DCFD3;
@@ -146,7 +152,6 @@ section.skills .card-wrapper{
 	grid-column-gap: 2rem;
 	grid-row-gap: 4rem; 
 }
-
 section.skills .card-wrapper .card{
 	background: white;
 	padding: 3rem 2rem;
@@ -186,8 +191,4 @@ section.skills .card-wrapper .card:hover h2,section.skills .card-wrapper .card:h
 
 section.achivements{
 background: lightgrey;
-}
-
-@media all and (max-width: 768px){
-	body
 }
