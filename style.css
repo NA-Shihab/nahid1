@@ -5,7 +5,9 @@
 	}
 	
 }
-
+@media-query{
+	font-size: 60%;
+}
 :root{
 	--primary:#3DCFD3;
 	--dark:#161616;
