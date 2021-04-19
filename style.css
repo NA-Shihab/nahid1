@@ -187,3 +187,7 @@ section.skills .card-wrapper .card:hover h2,section.skills .card-wrapper .card:h
 section.achivements{
 background: lightgrey;
 }
+
+@media all and (max-width: 768px){
+	body
+}
