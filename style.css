@@ -176,7 +176,7 @@ section.skills .card-wrapper .card p{
 }
 
 section.skills .card-wrapper .card:hover{
-	background: grey;
+	background: var(--primary);
 }
 
 section.skills .card-wrapper .card:hover h2,section.skills .card-wrapper .card:hover p{
