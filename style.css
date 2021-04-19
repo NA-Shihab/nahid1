@@ -1,13 +1,4 @@
 @import'utilities.css';
-@media(max-width: 768px){
-	body{
-
-	}
-	
-}
-@media-query{
-	font-size: 60%;
-}
 :root{
 	--primary:#3DCFD3;
 	--dark:#161616;
@@ -193,4 +184,10 @@ section.skills .card-wrapper .card:hover h2,section.skills .card-wrapper .card:h
 
 section.achivements{
 background: lightgrey;
+}
+
+@media(max-width: 768px){
+	.container{
+		max-width: 200px;
+	}
 }
