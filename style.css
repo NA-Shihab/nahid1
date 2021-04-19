@@ -185,12 +185,3 @@ section.skills .card-wrapper .card:hover h2,section.skills .card-wrapper .card:h
 section.achivements{
 background: lightgrey;
 }
-
-@media(max-width: 768px){
-	.branding{
-		margin-right:0.5rem;
-	}
-	.hero .left img{
-width: 200px;
-	}
-}
