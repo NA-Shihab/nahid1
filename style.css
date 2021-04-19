@@ -190,4 +190,7 @@ background: lightgrey;
 	.branding{
 		margin-right:0.5rem;
 	}
+	.hero .left img{
+width: 200px;
+	}
 }
