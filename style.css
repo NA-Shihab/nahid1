@@ -232,7 +232,7 @@ transition: color 0.3s ease;
 	color: white;
 }
 .footer-bottom{
-	background: white;
+	background: var(--dark);
 	width: 100vw;
 	padding: 20px 0;
 	text-align: center;
@@ -244,10 +244,7 @@ transition: color 0.3s ease;
 	text-transform: capitalize;
 }
 .footer-bottom span{
-	color: var(--primary);
+	color: grey;
 	opacity: 0.6;
 	font-weight: 200;
-}
-.footer-bottom{
-	text-align: center;
 }
