@@ -248,3 +248,6 @@ transition: color 0.3s ease;
 	opacity: 0.6;
 	font-weight: 200;
 }
+.footer-bottom{
+	text-align: center;
+}
