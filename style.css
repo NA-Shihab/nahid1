@@ -9,6 +9,9 @@
 body{
 	font-family: 'poppins',sans-serif;
 }
+html{
+	scroll-behavior:smooth;
+}
 
 *{
 	padding: 0;
@@ -213,12 +216,6 @@ footer{
 footer.socials a{
 	margin-right: 1rem;
 }
-
-
-
-
-
-
 
 
 
