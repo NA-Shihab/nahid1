@@ -20,7 +20,7 @@
 }
 .btn-primary{
 	background: var(--primary);
-	color: var(--secondary);
+	color: black;
 }
 .btn-primary:hover{
 	background: transparent;
