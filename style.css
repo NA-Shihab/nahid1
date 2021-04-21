@@ -216,7 +216,9 @@ footer{
 footer.socials a{
 	margin-right: 5rem;
 }
-
+footer.socials a img:hover{
+	color: white;
+}
 
 
 .footer-bottom{
