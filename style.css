@@ -185,53 +185,6 @@ section.skills .card-wrapper .card:hover h2,section.skills .card-wrapper .card:h
 
 }
 
-section.achivements{
-	color: black;
-text-align: center;
-background: white;
-padding-bottom: 10rem;
-}
-
-section.achivements h1{
-	font-size: 2rem;
-	margin-bottom: 0.5rem;
-	margin-top: 0;
-	font-family: 'Zen Dots' sans-serif;
-
-}
-section.achivements p{
-	margin-bottom: 2rem;
-	font-family: 'Zen Dots' sans-serif;
-}
-
-section.achivements .container{
-	padding-top: 5rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 footer{
