@@ -237,3 +237,7 @@ footer.socials a img:hover{
 }
 
 
+.socials a img{
+	height: 30px;
+	width: 30px;
+}
