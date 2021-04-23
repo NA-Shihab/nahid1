@@ -46,7 +46,7 @@ header nav .branding{
 	margin-right: 3rem;
 }
 .hero{
-	padding:3rem 0;
+	padding:4rem 0;
 }
 .hero .left img{
 width: 500px;
@@ -74,7 +74,7 @@ width: 500px;
 }
 
 .about{
-	padding-top: 13rem;
+	padding-top: 13.5rem;
 }
 .hero .right {
 	margin-top: -7;
@@ -194,7 +194,7 @@ section.skills .card-wrapper .card:hover h2,section.skills .card-wrapper .card:h
 
 
 footer{
-	background: lightgrey;
+	background:lightgrey;
 	height: auto;
 	width: auto;
 	font-family: 'Zen Dots' sans-serif;
