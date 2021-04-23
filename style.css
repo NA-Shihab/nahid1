@@ -22,7 +22,7 @@ html{
 
 header{
 	background-color: transparent;
-	height:80px;
+	height:90px;
 }
 .container{
 	max-width: 1152px;
@@ -46,7 +46,7 @@ header nav .branding{
 	margin-right: 3rem;
 }
 .hero{
-	padding:4rem 0;
+	padding:6rem 0;
 }
 .hero .left img{
 width: 500px;
@@ -260,4 +260,12 @@ footer.socials a img:hover{
 }
 .about{
 	padding-left: 5rem;
+}
+
+
+
+.protfolio{
+	background-image: url(./img/yo2.gif);
+	background-size: cover;
+	padding-top: 0;
 }
