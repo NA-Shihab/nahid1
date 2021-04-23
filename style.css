@@ -50,6 +50,7 @@ header nav .branding{
 }
 .hero .left img{
 width: 500px;
+border-radius: 20%;
 }
 .hero .right{
 	color: white;
@@ -80,14 +81,14 @@ width: 500px;
 	margin-top: -7;
 }
 section.about img{
-	height: 400px;
-	width: 350px;
-	border-radius: 50%;
+	height: 450px;
+	width: 450px;
+	border-radius: 20%;
 }
 
 section{
 	background-image: url(./img/hi.gif);
-	padding: 11rem 0;
+	padding: 10rem 0;
 	height: 900px;
 
 }
@@ -253,4 +254,10 @@ footer.socials a img:hover{
 	height: 30px;
 	width: 30px;
 	color: white;
+}
+.flex-1{
+	padding-left: 35px;
+}
+.about{
+	padding-left: 5rem;
 }
