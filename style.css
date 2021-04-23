@@ -72,6 +72,10 @@ width: 500px;
 	line-height:1.9;
 	margin-bottom: 2rem;
 }
+
+.about{
+	padding-top: 13rem;
+}
 .hero .right {
 	margin-top: -7;
 }
@@ -82,9 +86,9 @@ section.about img{
 }
 
 section{
-	background-color:grey;
+	background-image: url(./img/hi.gif);
 	padding: 11rem 0;
-	height: 800px;
+	height: 900px;
 
 }
 
@@ -92,6 +96,7 @@ section.about h1{
 	margin-bottom: 1rem;
 	font-size: 2.6rem;
 	font-weight: 400;
+	color: white
 }
 section.about h1 span{
 	color:var(--primary);
@@ -100,12 +105,13 @@ section.about h3{
 	font-size: 2rem;
 	margin-bottom: 1rem;
 	font-weight: 400;
+	color: white
 
 }
 section.about p{
 	font-family: 'Zen Dots' sans-serif;
 	font-style: bold;
-	color: black;
+	color: white;
 	line-height: 1.6;
 }
 section.about.social{
@@ -118,7 +124,7 @@ section.about.social{
 	background-image: url(./img/yo2.gif);
 	background-size: cover;
 	height: 900px;
-
+width:auto;
 }
 
 
